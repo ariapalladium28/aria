@@ -14,6 +14,11 @@ body {
     drift-nebula 240s linear infinite,
     drift-stars 360s linear infinite reverse;
 }
+@media (max-height: 600px) {
+  .avatar { width: 140px; height: 140px; }
+  h1 { font-size: 3rem; }
+  .socials { margin-top: 1rem; gap: 1.5rem; }
+}
 
 @keyframes drift-nebula {
   0%   { background-position: 0% 0%, 100% 100%, center; }
